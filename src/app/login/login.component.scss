@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  .example-card {
+    max-width: 600px;
+    max-height: 300px;
+    text-align: center;
+  
+  .login-card {
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+  }
+    .text-sizep{
+      font-size: 20px;
+    }
+      
+    .text-sizew{
+      font-size: 30px;
+      padding-top: 10px;
+    }
+  }
+
+}

@@ -1,0 +1,29 @@
+<div class="pokemon-card">
+  <mat-card class="example-card">
+    <div class="pokemon-avatar" style="flex-direction: row;">
+      <h2 style="margin-left: 15px;" >{{ pokemon.id }}</h2>
+      <h3 style="margin-left: 50px; margin-top: 10px;">{{ pokemon.name }}</h3>
+      <h3 style="margin-top: 10px; margin-left: 10px;">{{ pokemon.firstType}}</h3>
+      <span *ngIf="pokemon.secondType" style="margin-top: 15px;">/{{ pokemon.secondType }}</span>
+    </div>
+
+    <mat-accordion>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Basic Status
+          </mat-panel-title>
+          <mat-panel-description>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        HP: {{ pokemon.hp }}<br />
+        Attack: {{ pokemon.attack }}<br />
+        Defense: {{ pokemon.defense }}<br />
+      </mat-expansion-panel>
+    </mat-accordion>
+
+
+    <button mat-raised-button color="primary" (click)="detailClicked()"
+      style="margin-top:10px; margin-left: 240px; font-size: small; color: black; background-color: yellow;">Detail</button>
+  </mat-card>
+</div>
