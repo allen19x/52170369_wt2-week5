@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'wt2-genap1920-week5';
+  title = 'WT2 Proyek 1';
 }

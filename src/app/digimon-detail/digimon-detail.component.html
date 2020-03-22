@@ -1,0 +1,20 @@
+<div class="digimon-detail">
+  
+  <div class="digimon-image">
+    <img [src]="'../assets/digimon/'+digimon.id+'.png'" [alt]="'Picture of ' + digimon.name" />
+  </div>
+  <div class="digimon-stat">
+    <p>
+      <span class="category">ID</span>
+      <span class="value">{{ digimon.id }}</span>
+    </p>
+    <p>
+      <span class="category">Name</span>
+      <span class="value">{{ digimon.name }}</span>
+    </p>
+    <p>
+      <span class="category">Type</span>
+      <span class="value">{{ digimon.level }}</span>
+    </p>
+  </div>
+</div>

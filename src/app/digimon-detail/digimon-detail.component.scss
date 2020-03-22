@@ -1,0 +1,27 @@
+@import "../../styles.scss";
+
+.digimon-image {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  position: absolute;
+}
+
+.digimon-stat {
+  height: 600px;
+  width: 300px;
+  background-color: pink;
+  margin-left: 700px;
+
+  .category {
+    font-size: 25px;
+    color: $primary;
+    margin-right: 10px;
+  }
+
+  .value {
+    font-size: 25px;
+    color: $grey;
+  }
+
+}

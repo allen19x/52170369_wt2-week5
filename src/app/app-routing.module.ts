@@ -4,7 +4,7 @@ import { ShellComponent } from "./shell/shell.component";
 import { AboutComponent } from "./about/about.component";
 import { Page404Component } from "./page404/page404.component";
 import { DashboardComponent } from "./dashboard/dashboard.component";
-import { PokemonDetailComponent } from "./pokemon-detail/pokemon-detail.component";
+import { DigimonDetailComponent } from "./digimon-detail/digimon-detail.component";
 import { LoginComponent } from "./login/login.component";
 import { LoginGuard } from "./login.guard";
 
@@ -24,8 +24,8 @@ const routes: Routes = [
         component: DashboardComponent
       },
       {
-        path: "pokemon/:id",
-        component: PokemonDetailComponent
+        path: "digimon/:id",
+        component: DigimonDetailComponent
       },
       {
         path: "about",

@@ -12,7 +12,7 @@ import { LoginComponent } from "./login/login.component";
 import { DashboardComponent } from "./dashboard/dashboard.component";
 import { AboutComponent } from "./about/about.component";
 import { Page404Component } from "./page404/page404.component";
-import { PokemonDetailComponent } from "./pokemon-detail/pokemon-detail.component";
+import { DigimonDetailComponent } from "./digimon-detail/digimon-detail.component";
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatExpansionModule} from '@angular/material/expansion';
@@ -29,7 +29,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
     DashboardComponent,
     AboutComponent,
     Page404Component,
-    PokemonDetailComponent
+    DigimonDetailComponent
   ],
   imports: [MatExpansionModule, MatCardModule, BrowserModule, AppRoutingModule, BrowserAnimationsModule, MatButtonModule],
   providers: [],
